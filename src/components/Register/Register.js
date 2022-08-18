@@ -1,21 +1,18 @@
+import './Register.css';
 import React from 'react';
-import './Login.css'
 
-const Login = () => {
+const Register = () => {
     return (
         <div>
-            <h3>Please Login</h3>
-            <div>
-                <button style={{margin:'20px'}}>Google Sign In</button>
-            </div>
+            <h3>Please Register</h3>
             <form action="">
-                
+                <input type="text" placeholder='Enter Your Name' name="" id="" /> <br />
                 <input type="email" placeholder='Enter Email' name="" id="" /> <br />
                 <input type="password" placeholder='Password' name="" id="" /> <br />
-                <input type="submit" value="Login" />
+                <input type="submit" value="Register" />
             </form>
         </div>
     );
 };
 
-export default Login;
+export default Register;
