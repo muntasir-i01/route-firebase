@@ -1,6 +1,6 @@
 import './Home.css'
 import React from 'react';
-import useFirebase from '../../hooks/useFirebase';
+// import useFirebase from '../../hooks/useFirebase';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { getAuth } from 'firebase/auth';
 import app from '../../firebase.init';

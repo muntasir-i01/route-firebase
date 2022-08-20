@@ -2,7 +2,7 @@ import { getAuth } from 'firebase/auth';
 import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import app from '../../firebase.init';
-import useFirebase from '../../hooks/useFirebase';
+// import useFirebase from '../../hooks/useFirebase';
 
 const auth = getAuth(app);
 
