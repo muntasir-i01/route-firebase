@@ -27,6 +27,7 @@ const useFirebase = () => {
                 
             })
     }
+
     
     // on useEffect () -> is empty depencency, => {} -> callback function
     useEffect(() => {
